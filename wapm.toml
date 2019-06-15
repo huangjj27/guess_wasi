@@ -2,3 +2,7 @@
 name = "huangjj27/guess_wasi"
 version = "0.0.1"
 description = "Guessing number game target at WASI, with log and levels config"
+
+[[module]]
+name = "guessing_number_game"
+source = "./target/wasm32-wasi/release/guess_wasi.wasm"
